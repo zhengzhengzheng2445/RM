@@ -1,8 +1,7 @@
 #include "stm32f4xx.h"
 #include "sys.h"
-#include "delay.h"
 #include "led.h"
-void LED_Init(uint32_t pin) //初始化GPIOH的任意引脚(不确定),但至少那几个led够了
+void LED_Init(uint32_t pin) //初始化GPIOH的那几个led够了
 {
     GPIO_InitTypeDef GPIO_InitStructure;
 
