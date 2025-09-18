@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\FWLIB\inc;..\CORE;..\USER;..\HARDWARE;..\SYSTEM\delay;..\SYSTEM\sys;..\BSP;..\BSP\led.h;..\BSP\led.c</IncludePath>
+              <IncludePath>..\FWLIB\inc;..\CORE;..\USER;..\HARDWARE;..\SYSTEM\delay;..\SYSTEM\sys;..\BSP;..\SYSTEM</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -768,6 +768,16 @@
               <FileType>1</FileType>
               <FilePath>..\SYSTEM\sys\sys.c</FilePath>
             </File>
+            <File>
+              <FileName>IRQHandle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SYSTEM\IRQHandle.c</FilePath>
+            </File>
+            <File>
+              <FileName>IRQHandle.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\SYSTEM\IRQHandle.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -785,6 +795,16 @@
               <FileName>led.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\BSP\led.h</FilePath>
+            </File>
+            <File>
+              <FileName>timer .c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\timer .c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\timer.h</FilePath>
             </File>
           </Files>
         </Group>
